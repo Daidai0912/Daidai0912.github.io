@@ -6,7 +6,7 @@
 <!-- -->
 ![](https://moe-counter.glitch.me/get/@daidai0912?theme=rule34)
 
-![打字机](https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/呆呆.svg)
+![](https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/呆呆.svg)
 <!-- -->
 
 
