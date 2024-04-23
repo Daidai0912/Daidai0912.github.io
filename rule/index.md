@@ -16,6 +16,7 @@
   *(1000+丨去 APP 下载提示规则)*  <sup>[主页](https://github.com/Noyllopa/NoAppDownload)
   * [Ad-J](https://gcore.jsdelivr.net/gh/jk278/Ad-J/Ad-J.txt)
   *(300+丨 jk278 的自用移动端去广告规则, 常用网站精选)*  <sup>[主页](https://github.com/jk278/Ad-J/blob)
+
 <div align="center">
   <p><sub> X浏览器导入方式 </sub></p>
   <sup> 设置 » 广告拦截 » 规则文件 » (右上角) 导入 » 从网址导入 » (填写该链接后) 点击导入 </div>
