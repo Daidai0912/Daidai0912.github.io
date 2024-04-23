@@ -1,8 +1,11 @@
+[X浏览器]: https://www.xbext.com/
+[Via]: https://viayoo.com/
+
 <div align="center">
   
 # X 浏览器、Via 丨辅助介绍
 
-这里收集了一些[**X浏览器**](https://www.xbext.com/)与[**Via**](https://viayoo.com/)可能会用到的
+这里收集了一些 [X浏览器] 与 [Via] 可能会用到的
 
 <!-- -->
 ![](https://moe-counter.glitch.me/get/@daidai0912?theme=rule34)
