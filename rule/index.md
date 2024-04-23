@@ -20,10 +20,10 @@
   <p><sub> X浏览器导入方式 </sub></p>
   <sup> 设置 » 广告拦截 » 规则文件 » (右上角) 导入 » 从网址导入 » (填写该链接后) 点击导入 </div>
 
-  ![X 浏览器](https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/X%E6%B5%8F%E8%A7%88%E5%99%A8%E8%A7%84%E5%88%99%E6%96%87%E4%BB%B6_%E5%8E%8B%E7%BC%A9.webp)
+  ![](https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/X%E6%B5%8F%E8%A7%88%E5%99%A8%E8%A7%84%E5%88%99%E6%96%87%E4%BB%B6_%E5%8E%8B%E7%BC%A9.webp)
 
 <div align="center">
   <p><sub> Via导入方式 </sub></p>
   <sup> 设置 » 通用 » 广告拦截 » 规则订阅 » (右上角)+号 » (填写该链接后) 确定 » 勾选规则 » (右上角) 更新 </div>
 
-  ![Via](https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/via%E8%A7%84%E5%88%99%E8%AE%A2%E9%98%85_%E5%8E%8B%E7%BC%A9.webp)
+  ![](https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/via%E8%A7%84%E5%88%99%E8%AE%A2%E9%98%85_%E5%8E%8B%E7%BC%A9.webp)
