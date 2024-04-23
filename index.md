@@ -1,4 +1,3 @@
-<div align="center">
 
 # X 浏览器、Via 丨辅助介绍
 
@@ -10,7 +9,6 @@
 ![打字机](https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/呆呆.svg)
 <!-- -->
 
-</div>
 
 ---
 
