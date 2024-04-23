@@ -1,4 +1,5 @@
-
+<div align="center">
+  
 # X 浏览器、Via 丨辅助介绍
 
 这里收集了一些[**X浏览器**](https://www.xbext.com/)与[**Via**](https://viayoo.com/)可能会用到的
@@ -8,6 +9,8 @@
 
 ![](https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/%E5%91%86%E5%91%86.svg)
 <!-- -->
+
+</div>
 
 ---
 
