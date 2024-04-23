@@ -10,6 +10,8 @@
 ![打字机](https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/呆呆.svg)
 <!-- -->
 
+</div>
+
 ---
 
 之前使用的 [QQ收藏](https://daidai0912.github.io/qq) 已废弃
@@ -47,5 +49,3 @@
 
   [雨见/可拓·Xiu/嗅觉 - 去白名单](https://daidai0912.github.io/browser)
 </details>
-
-</div>
