@@ -4,10 +4,7 @@
 [gitee]: https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/gitee.png
 
 ## 视频播放器
-<details>
-  <summary> Reex </summary>
-  <br>
-  
+### Reex
   ![Reex](https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/reex.jpg)
 
   > 长按倍速, 双击两侧快进, 双击中心暂停。支持长按倍速、快进秒数设置。支持关闭单个手势。拥有播放历史, 支持挂载 WebDav
@@ -17,11 +14,8 @@
 | [![蓝奏云(密码：qazw)][lanzou]](https://www.lanzn.com/b01np165c) | [![Reex - Gitee下载地址][gitee]](https://gitee.com/lntls/reex/releases)
 
 <img width="200%" src="https://shp.qpic.cn/collector/3042839226/41227680-93bb-4d63-af82-f9845c8bf099/0" /><br/>
-</details>
 
-<details>
-  <summary> MX Player </summary>
-  <br>
+### MX Player 
   
   ![MX](https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/mx%20player.jpg)
 
@@ -32,11 +26,8 @@
 | [![123云盘(无密码)][123pan]](https://www.123pan.com/s/YHGHjv-bNJC.html) |
 
 <img width="200%" src="https://shp.qpic.cn/collector/3042839226/41227680-93bb-4d63-af82-f9845c8bf099/0" /><br/>
-</details>
 
-<details>
-  <summary> Next Player </summary>
-  <br>
+### Next Player
   
   ![Next Player](https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/next%20player.jpg)
 
@@ -49,11 +40,8 @@
   > 如果你并不知道该使用 v7a 还是 v8a，请使用 universal 版本
 
 <img width="200%" src="https://shp.qpic.cn/collector/3042839226/41227680-93bb-4d63-af82-f9845c8bf099/0" /><br/>
-</details>
 
-<details>
-  <summary> Just Player </summary>
-  <br>
+### Just Player
   
   ![Just Player](https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/just%20player.jpg)
 
@@ -64,6 +52,5 @@
 | [![Github开源地址][github]](https://github.com/moneytoo/Player/releases) |
 
 <img width="200%" src="https://shp.qpic.cn/collector/3042839226/41227680-93bb-4d63-af82-f9845c8bf099/0" /><br/>
-</details>
 
-> [四个播放器下载](https://www.123pan.com/s/YHGHjv-yRaC)
+#### [四个播放器下载](https://www.123pan.com/s/YHGHjv-yRaC)
