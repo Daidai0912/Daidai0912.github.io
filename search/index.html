@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>搜索引擎</title>
+        <style>
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .search-engines {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .search-engines li {
+    margin-bottom: 20px;
+  }
+
+  .code-block {
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .copy-button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+
+  .copy-button:hover {
+    background-color: #0056b3;
+  }
+
+  cc {
+    font-weight: bold;
+  }
+
+</style>
+    </head>
+    <body>
+        <h2 class="centered">搜索引擎</h2>
+        <ul class="search-engines">
+            <li><span>Naver: </span>
+                <div class="code-block"><code>https://search.naver.com/search.naver?query=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://search.naver.com/search.naver?query=')">复制链接</button></li>
+            <li><span>Yahoo: </span>
+                <div class="code-block"><code>https://search.yahoo.com/search?p=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://search.yahoo.com/search?p=')">复制链接</button></li>
+            <li><span>无追: </span>
+                <div class="code-block"><code>https://www.wuzhuiso.com/s?q=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://www.wuzhuiso.com/s?q=')">复制链接</button></li>
+            <li><span>SearXNG: </span>
+                <div class="code-block"><code>https://searx.si/search?q=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://searx.si/search?q=')">复制链接</button></li>
+            <li><span>Ecosia: </span>
+                <div class="code-block"><code>https://www.ecosia.org/search?q=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://www.ecosia.org/search?q=')">复制链接</button></li>
+            <li><span>Swisscows: </span>
+                <div class="code-block"><code>https://swisscows.com/web?query=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://swisscows.com/web?query=')">复制链接</button></li>
+            <li><span>DuckDuckGo: </span>
+                <div class="code-block"><code>https://duckduckgo.com/?q=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://duckduckgo.com/?q=')">复制链接</button></li>
+            <li><span>Qwant: </span>
+                <div class="code-block"><code>https://www.qwant.com/?q=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://www.qwant.com/?q=')">复制链接</button></li>
+            <li><span>360: (<cc>AI搜索</cc>)</span>
+                <div class="code-block"><code>https://www.sou.com/?q=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://www.sou.com/?q=')">复制链接</button></li>
+            <li><span>秘塔: (<cc>AI搜索</cc>)</span>
+                <div class="code-block"><code>https://metaso.cn/?q=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://metaso.cn/?q=')">复制链接</button></li>
+            <li><span>Perplexity: (<cc>AI搜索</cc>)</span>
+                <div class="code-block"><code>https://www.perplexity.ai/?q=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://www.perplexity.ai/?q=')">复制链接</button></li>
+            <li><span>iAsk: (<cc>AI搜索</cc>)</span>
+                <div class="code-block"><code>https://iask.ai/?q=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://iask.ai/?q=')">复制链接</button></li>
+            <li><span>十号: (<cc>AI搜索</cc>)</span>
+                <div class="code-block"><code>https://retardphobia.moebh.org/ui/search.html?q=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://retardphobia.moebh.org/ui/search.html?q=')">复制链接</button></li>
+            <li><span>Andi: (<cc>AI搜索</cc>)</span>
+                <div class="code-block"><code>https://andisearch.com/?q=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://andisearch.com/?q=')">复制链接</button></li>
+            <li><span>Phind: (<cc>AI搜索</cc>)</span>
+                <div class="code-block"><code>https://phind-ai.com/zh/search?q=</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://phind-ai.com/zh/search?q=')">复制链接</button></li>
+        <!--
+            <li><span>: </span>
+                <div class="code-block"><code></code>
+                </div> <button class="copy-button" onclick="copyToClipboard('')">复制链接</button></li>
+         -->
+        </ul>
+    </body>
+
+<script>
+  function copyToClipboard(text) {
+    var dummy = document.createElement("textarea");
+    document.body.appendChild(dummy);
+    dummy.value = text;
+    dummy.select();
+    document.execCommand("copy");
+    document.body.removeChild(dummy);
+    alert("链接已复制到剪贴板！");
+  }
+</script>
+
+</html>
