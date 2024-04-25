@@ -27,7 +27,7 @@
     text-decoration: underline;
   }
 
-  code {
+  .code-block, code {
     background-color: #f5f5f5;
     padding: 4px;
     border-radius: 6px;
@@ -51,43 +51,49 @@
 </style>
     </head>
     <body>
-        <h2 id="广告规则订阅">广告规则订阅</h2>
+        <h2 class="centered">广告规则订阅</h2>
         <p>个人推荐： <code>ABP Merge Rules</code>(或: <code>AdRules AdBlock List 精简版</code>) + <code>乘风 视频规则</code> + <code>去除APP下载提示</code> + <code>Ad-J</code></p>
-        <ul>
-            <li>AdRules AdBlock List 精简版<em> (3w+丨在中国地区屏蔽广告的列表)</em> <sup> <a href="https://github.com/Cats-Team/AdRules">主页</a> </sup></li>
-            <pre><code id="rule1">https://bitbucket.org/hacamer/adrules/raw/main/adblock_lite.txt</code> <button class="copy-button" onclick="copyToClipboard('rule1')">复制</button></pre>
-        </ul>
-        <hr>
-        <ul>
-            <li>AdRules AdBlock List<em> (16w+丨包含 '精简版'，在中国地区屏蔽广告的列表)</em> <sup> <a href="https://github.com/Cats-Team/AdRules">主页</a> </sup></li>
-            <pre><code id="rule2">https://bitbucket.org/hacamer/adrules/raw/main/adblock.txt</code> <button class="copy-button" onclick="copyToClipboard('rule2')">复制</button></pre>
-        </ul>
-        <hr>
-        <ul>
-            <li>乘风 广告规则<em> (1000+丨可能有点误杀....)</em> <sup> <a href="https://github.com/xinggsf/Adblock-Plus-Rule">主页</a> </sup></li>
-            <pre><code id="rule3">https://cdn.jsdelivr.net/gh/xinggsf/Adblock-Plus-Rule@master/rule.txt</code> <button class="copy-button" onclick="copyToClipboard('rule3')">复制</button></pre>
-        </ul>
-        <hr>
-        <ul>
-            <li>乘风 视频规则<em> (200 丨如名, 专针对视频网站作出的规则)</em> <sup> <a href="https://github.com/xinggsf/Adblock-Plus-Rule">主页</a> </sup></li>
-            <pre><code id="rule4">https://cdn.jsdelivr.net/gh/xinggsf/Adblock-Plus-Rule@master/mv.txt</code> <button class="copy-button" onclick="copyToClipboard('rule4')">复制</button></pre>
-        </ul>
-        <hr>
-        <ul>
-            <li>ABP Merge Rules<em> (5w+丨广告拦截规则合并)</em> <sup> <a href="https://github.com/damengzhu/abpmerge">主页</a> </sup></li>
-            <pre><code id="rule5">https://gitea.com/lemon399/AdRules/raw/branch/main/abpmerge.txt</code> <button class="copy-button" onclick="copyToClipboard('rule5')">复制</button></pre>
-        </ul>
-        <hr>
-        <ul>
-            <li>去除 APP 下载提示<em> (1000+丨去 APP 下载提示规则)</em> <sup> <a href="https://github.com/Noyllopa/NoAppDownload">主页</a> </sup></li>
-            <pre><code id="rule6">https://cdn.jsdelivr.net/gh/Noyllopa/NoAppDownload@master/NoAppDownload.txt</code> <button class="copy-button" onclick="copyToClipboard('rule6')">复制</button></pre>
-        </ul>
-        <hr>
-        <ul>
-            <li>Ad-J<em> (300+丨 jk278 的自用移动端去广告规则, 常用网站精选)</em> <sup> <a href="https://github.com/jk278/Ad-J/blob">主页</a> </sup></li>
-            <pre><code id="rule7">https://gcore.jsdelivr.net/gh/jk278/Ad-J/Ad-J.txt</code> <button class="copy-button" onclick="copyToClipboard('rule7')">复制</button></pre>
-        </ul>
-        <hr>
+            <li>AdRules AdBlock List 精简版<em> (3w+丨在中国地区屏蔽广告的列表)</em> <sup> <a href="https://github.com/Cats-Team/AdRules">主页</a> </sup>
+                <div class="code-block">
+                    <code id="rule1">https://bitbucket.org/hacamer/adrules/raw/main/adblock_lite.txt</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('rule1')">复制链接</button></li>
+            <hr>
+            <li>AdRules AdBlock List<em> (16w+丨包含 '精简版'，在中国地区屏蔽广告的列表)</em> <sup> <a href="https://github.com/Cats-Team/AdRules">主页</a> </sup>
+                <div class="code-block">
+                    <code id="rule2">https://bitbucket.org/hacamer/adrules/raw/main/adblock.txt</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('rule2')">复制链接</button></li>
+            <hr>
+            <li>乘风 广告规则<em> (1000+丨可能有点误杀....)</em> <sup> <a href="https://github.com/xinggsf/Adblock-Plus-Rule">主页</a> </sup>
+                <div class="code-block">
+                    <code id="rule3">https://cdn.jsdelivr.net/gh/xinggsf/Adblock-Plus-Rule@master/rule.txt</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('rule3')">复制链接</button></li>
+            <hr>
+            <li>乘风 视频规则<em> (200 丨如名, 专针对视频网站作出的规则)</em> <sup> <a href="https://github.com/xinggsf/Adblock-Plus-Rule">主页</a> </sup>
+                <div class="code-block">
+                    <code id="rule4">https://cdn.jsdelivr.net/gh/xinggsf/Adblock-Plus-Rule@master/mv.txt</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('rule4')">复制链接</button></li>
+            <hr>
+            <li>ABP Merge Rules<em> (5w+丨广告拦截规则合并)</em> <sup> <a href="https://github.com/damengzhu/abpmerge">主页</a> </sup>
+                <div class="code-block">
+                    <code id="rule5">https://gitea.com/lemon399/AdRules/raw/branch/main/abpmerge.txt</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('rule5')">复制链接</button></li>
+            <hr>
+            <li>去除 APP 下载提示<em> (1000+丨去 APP 下载提示规则)</em> <sup> <a href="https://github.com/Noyllopa/NoAppDownload">主页</a> </sup>
+                <div class="code-block">
+                    <code id="rule6">https://cdn.jsdelivr.net/gh/Noyllopa/NoAppDownload@master/NoAppDownload.txt</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('rule6')">复制链接</button></li>
+            <hr>
+            <li>Ad-J<em> (300+丨 jk278 的自用移动端去广告规则, 常用网站精选)</em> <sup> <a href="https://github.com/jk278/Ad-J">主页</a> </sup>
+                <div class="code-block">
+                    <code id="rule7">https://cdn.jsdelivr.net/gh/jk278/Ad-J/Ad-J.txt</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('rule7')">复制链接</button></li>
+                <hr>
+            <!--
+            <li><em> ()</em> <sup> <a href="https://github.com/">主页</a> </sup>&lt; 
+                <div class="code-block">
+                    <code id="rule8">https://</code>
+                </div> <button class="copy-button" onclick="copyToClipboard('rule8')">复制链接</button></li>
+             -->
         <div align="center">
             <p><sub> X浏览器导入方式 </sub></p> <sup> 设置 » 广告拦截 » 规则文件 » (右上角) 导入 » 从网址导入 » (填写该链接后) 点击导入 </sup>
         </div>
@@ -97,16 +103,15 @@
         </div>
         <p><img src="https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/via%E8%A7%84%E5%88%99%E8%AE%A2%E9%98%85_%E5%8E%8B%E7%BC%A9.webp" alt=""></p>
         <script>
-        function copyToClipboard(id) {
-            var copyText = document.getElementById(id);
-            var textArea = document.createElement("textarea");
-            textArea.value = copyText.textContent;
-            document.body.appendChild(textArea);
-            textArea.select();
-            document.execCommand("Copy");
-            textArea.remove();
-            alert("已复制到剪贴板！");
-        }
-    </script>
+  function copyToClipboard(text) {
+    var dummy = document.createElement("textarea");
+    document.body.appendChild(dummy);
+    dummy.value = text;
+    dummy.select();
+    document.execCommand("copy");
+    document.body.removeChild(dummy);
+    alert("链接已复制到剪贴板！");
+  }
+</script>
     </body>
 </html>
