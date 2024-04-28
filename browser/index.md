@@ -1,5 +1,5 @@
-[lanzou]: https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/lanzou.png
-[123pan]: https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/123.png
+[lanzou]: https://github.moeyy.xyz/https://raw.githubusercontent.com/Daidai0912/Dai_dai/master/picture/lanzou.png
+[123pan]: https://github.moeyy.xyz/https://raw.githubusercontent.com/Daidai0912/Dai_dai/master/picture/123.png
 
  雨见/可拓·Xiu/嗅觉 - 去白名单
 
