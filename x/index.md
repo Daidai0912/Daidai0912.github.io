@@ -1,5 +1,5 @@
-[lanzou]: https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/lanzou.png
-[123pan]: https://cdn.jsdelivr.net/gh/Daidai0912/Dai_dai@master/picture/123.png
+[lanzou]: https://github.moeyy.xyz/https://raw.githubusercontent.com/Daidai0912/Dai_dai/master/picture/lanzou.png
+[123pan]: https://github.moeyy.xyz/https://raw.githubusercontent.com/Daidai0912/Dai_dai/master/picture/123.png
 
 ## 𝗫浏览器 - 去白名单
   `自用,若用于其他用途自行承担责任`
