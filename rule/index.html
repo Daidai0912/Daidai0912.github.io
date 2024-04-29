@@ -56,7 +56,7 @@
             <li>AdRules AdBlock List 精简版<em> (3w+丨在中国地区屏蔽广告的列表)</em> <sup> <a href="https://github.com/Cats-Team/AdRules">主页</a> </sup>
                 <div class="code-block">
                     <code>https://bitbucket.org/hacamer/adrules/raw/main/adblock_lite.txt</code>
-                </div> <button class="copy-button" onclick="copyToClipboard('rule1')">复制链接</button></li>
+                </div> <button class="copy-button" onclick="copyToClipboard('https://bitbucket.org/hacamer/adrules/raw/main/adblock_lite.txt')">复制链接</button></li>
             <hr>
             <li>AdRules AdBlock List<em> (16w+丨包含 '精简版'，在中国地区屏蔽广告的列表)</em> <sup> <a href="https://github.com/Cats-Team/AdRules">主页</a> </sup>
                 <div class="code-block">
@@ -110,8 +110,133 @@
     dummy.select();
     document.execCommand("copy");
     document.body.removeChild(dummy);
-    alert("链接已复制到剪贴板！");
+    toast("已复制:\n"+text,1);
   }
+
+    function addElement({
+        tag,
+        attrs = {},
+        to = document.body || document.documentElement,
+    }) {
+        const el = document.createElement(tag);
+        Object.assign(el, attrs);
+        to.appendChild(el);
+        return el;
+    }
+    
+    function addStyle(css) {
+        return addElement({
+            tag: 'style',
+            attrs: {
+                textContent: css,
+            },
+            to: document.head,
+        });
+    }
+    
+    var config = {
+        "toast": 0.1,
+        "out": 1
+    };
+    
+    function toast(text, time = 3, callback, transition = 0.2) {
+        let isObj = (o) => typeof o == 'object' && typeof o.toString == 'function' && o.toString() === '[object Object]', timeout, toastTransCount = 0;
+        if (typeof text != 'string') text = String(text);
+        if (typeof time != 'number' || time <= 0) time = 3;
+        if (typeof transition != 'number' || transition < 0) transition = 0.2;
+        if (callback && !isObj(callback)) callback = undefined;
+        if (callback) {
+            if (callback.text && typeof callback.text != 'string') callback.text = String(callback.text);
+            if (
+            callback.color && (typeof callback.color != 'string' || callback.color === '')) delete callback.color;
+            if (callback.onclick && typeof callback.onclick != 'function') callback.onclick = () => null;
+            if (callback.onclose && typeof callback.onclose != 'function') delete callback.onclose;
+        }
+    
+        let toastStyle = addStyle(`
+      #bextToast {
+        all: initial;
+        display: flex;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 10vh;
+        width: max-content;
+        max-width: 80vw;
+        max-height: 80vh;
+        margin: 0 auto;
+        border-radius: 20px;
+        padding: .5em 1em;
+        font-size: 16px;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        z-index: 1000002;
+        opacity: 0%;
+        transition: opacity ${transition}s;
+      }
+      #bextToast > * {
+        display: -webkit-box;
+        height: max-content;
+        margin: auto .25em;
+        width: max-content;
+        max-width: calc(40vw - .5em);
+        max-height: 80vh;
+        overflow: hidden;
+        -webkit-line-clamp: 22;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow-wrap: anywhere;
+      }
+      #bextToastBtn {
+        color: ${callback && callback.color ? callback.color : 'turquoise'}
+      }
+      #bextToast.bextToastShow {
+        opacity: 1;
+      }
+        `)，
+        toastDiv = addElement({
+            tag: 'div',
+            attrs: {
+                id: 'bextToast',
+            },
+        }),
+        toastShow = () => {
+            toastDiv.classList.toggle('bextToastShow');
+            toastTransCount++;
+            if (toastTransCount >= 2) {
+                setTimeout(function() {
+                    toastDiv.remove();
+                    toastStyle.remove();
+                    if (callback && callback.onclose) callback.onclose.call(this);
+                }, transition * 1000 + 1);
+            }
+        };
+        addElement({
+            tag: 'div',
+            attrs: {
+                id: 'bextToastText',
+                innerText: text,
+            },
+            to: toastDiv,
+        });
+        if (callback && callback.text) {
+            addElement({
+                tag: 'div',
+                attrs: {
+                    id: 'bextToastBtn',
+                    innerText: callback.text,
+                    onclick: callback && callback.onclick ? () => {
+                        callback.onclick.call(this);
+                        clearTimeout(timeout);
+                        toastShow();
+                    } : null,
+                },
+                to: toastDiv,
+            });
+        }
+        setTimeout(toastShow, 1);
+        timeout = setTimeout(toastShow, (time + transition * 2) * 1000);
+    }
 </script>
     </body>
 </html>
