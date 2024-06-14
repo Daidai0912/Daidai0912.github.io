@@ -17,7 +17,7 @@
 
 | 蓝奏云<sub>`密码：12`</sub> | 123盘 |
 | :---: | :---: |
-[![蓝奏云(密码：12)][lanzou]](https://www.lanzn.com/b01rcpjv) | [![123云盘(无密码)][123pan]](https://www.123pan.com/s/YHGHjv-XXaC) |
+[![蓝奏云(密码：12)][lanzou]](https://www.lanzn.com/b01rcpjvg) | [![123云盘(无密码)][123pan]](https://www.123pan.com/s/YHGHjv-XXaC) |
 
 * 𝑉𝑖𝑎去限制-原包名
 
